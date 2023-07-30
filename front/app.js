@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * Importar la librería.
  */
@@ -9,8 +8,6 @@ const express = require('express');
  */
 const {dbConnect} = require('./utils/connection');
 require('dotenv').config();
-=======
->>>>>>> 73a17aa6202ec869fa3244e20e69bd0dee6e6b1e
 
 /**
  * Se utiliza express.

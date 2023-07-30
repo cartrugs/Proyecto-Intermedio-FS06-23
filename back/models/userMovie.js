@@ -12,7 +12,7 @@ const schemaUser = new Schema({
         type:String,
         required:true
     },
-    passaword:{
+    password:{
         required:true
     },
     date:{
@@ -25,5 +25,5 @@ const schemaUser = new Schema({
 })
 
 /**importacion del modelo para mandar ao controllers */
-module.exports = model('user', schemaUser):
+module.exports = model('user', schemaUser);
 
